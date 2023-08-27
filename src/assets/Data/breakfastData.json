@@ -1,0 +1,5 @@
+[
+    { "id": 1, "name": "Breakfast Dish 1", "price": 8, "image": "placeholder_image.jpg" },
+    { "id": 2, "name": "Breakfast Dish 2", "price": 10, "image": "placeholder_image.jpg" }
+  ]
+  
