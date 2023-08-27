@@ -1,11 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
 
 const Location = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-yellow-100">
-      
+    <div className="flex flex-col min-h-screen bg-white-100">
       <main className="flex-grow container mx-auto py-10">
         <section className="flex items-center justify-center">
           <div className="bg-white p-8 rounded shadow-md">
@@ -14,26 +11,34 @@ const Location = () => {
               Visit us at our cozy restaurant located in the heart of the city.
             </p>
             <address className="text-gray-700">
-              <p className="mb-1">123 Sunshine Street</p>
-              <p className="mb-1">Cityville, ABC 12345</p>
-              <p className="mb-1">Phone: (123) 456-7890</p>
+              <p className="mb-1">Wadada Liido</p>
+              <p className="mb-1">Muqdisho, Somalia</p>
+              <p className="mb-1">Phone: +36736269711</p>
             </address>
             <div className="mt-6">
-              <iframe
-                title="Restaurant Location"
-                width="100%"
-                height="300"
-                frameBorder="0"
-                scrolling="no"
-                marginHeight="0"
-                marginWidth="0"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890123456!2d-0.12345678901234567!3d12.345678901234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1234567890abcdef!2sDugsiiye%20Restaurant!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
-              ></iframe>
+              
             </div>
+
+            <div className="mapouter relative text-right w-96 h-64">
+      <div className="gmap_canvas overflow-hidden bg-transparent w-full h-full">
+        <iframe
+          className="gmap_iframe w-full h-full"
+          title="Zeytuun Restaurant Map"
+
+          src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Zeytuun%20Restaurant&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        ></iframe>
+        <a
+          href="https://gachanox.io/"
+          className="absolute bottom-4 left-4 text-blue-500"
+        >
+          Gacha Nox APK
+        </a>
+      </div>
+    </div>
+            
           </div>
         </section>
       </main>
-      
     </div>
   );
 };

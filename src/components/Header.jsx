@@ -18,7 +18,7 @@ const Header = () => {
           <Link to="/Location" className="text-black hover:text-yellow-400">Location</Link>
         </nav>
         <button className="bg-yellow-500 hover:bg-green-400 text-gray-900 py-2 px-4 rounded">
-          <Link to="/book">Table?</Link>
+          <Link to="/book">Book A Table?</Link>
         </button>
 
       </div>
